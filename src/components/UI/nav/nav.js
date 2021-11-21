@@ -2,6 +2,7 @@ import React from 'react';
 import './nav.css';
 import './assets/images/logo.png'; 
 import img from './assets/images/logo.png';
+import {Link} from 'react-router-dom'
 
 
 const Nav = (props) => {
@@ -12,15 +13,15 @@ const Nav = (props) => {
         </div>
         <div className="nav-links-right">
             <ul>
-                <li>
-                    <a href="/">Home</a>
-                </li>
-                <li>
-                    <a href="/about">About</a>
-                </li>
-                <li>
-                    <a href="/contact">Contact</a>
-                </li>
+                <Link to="/">
+                    <li>Home</li>
+                </Link>
+                <Link to="/about">
+                    <li>About</li>
+                </Link>
+                <Link to="/contact">
+                    <li>Contact</li>
+                </Link>
             </ul>
         </div>
     </div>
