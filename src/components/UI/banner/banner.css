@@ -1,0 +1,19 @@
+.banner {
+    position:relative;
+    height: 660px;
+}
+
+.banner-img {
+    width:100%;
+    position:absolute;
+    left:0;
+}
+
+.banner-text {
+    position: absolute;
+    width:100%;
+    z-index: 10;
+    left:0;
+    top: 240px;
+    color: white;
+}

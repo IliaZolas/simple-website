@@ -1,0 +1,20 @@
+.nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links-right ul li {
+    display: inline;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding:40px 10px;
+}
+
+.nav-logo-left {
+
+}

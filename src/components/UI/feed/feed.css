@@ -1,0 +1,20 @@
+.feed {
+    background: grey;
+    padding: 25px;
+}
+
+.feed-card {
+    background: darkgrey;
+    border-radius: 5px;
+   
+    display: flex;
+}
+
+.card-image {
+
+}
+
+.card-text {
+    padding: 10px;
+    text-align: left;
+}
